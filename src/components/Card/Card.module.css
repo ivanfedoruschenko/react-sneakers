@@ -1,0 +1,47 @@
+.card {
+  border: 1px solid #F3F3F3;
+  display: flex;
+  flex-direction: column;
+  border-radius: 40px;
+  width: 220px;
+  padding: 20px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.card:hover {
+  background: #FFFFFF;
+  border: 1px solid #F8F8F8;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 40px;
+  transform: translateY(-5px);
+}
+.card span {
+  font-size: 13px;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+.card b {
+  font-size: 13px;
+}
+.card h5 {
+  font-weight: 400;
+  font-size: 14px;
+}
+.card .card__like {
+  position: absolute;
+  cursor: pointer;
+}
+.card .card__img_sneakers {
+  width: 133px;
+  height: 112px;
+  align-self: center;
+}
+.card .card__button_img {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=Card.module.css.map */
